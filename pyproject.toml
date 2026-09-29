@@ -4,3 +4,8 @@ requires = ["setuptools", "wheel"]
 [tool.pytest.ini_options]
 addopts = "-q"
 pythonpath = ["."]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
